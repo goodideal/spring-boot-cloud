@@ -12,7 +12,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/zhangxd1989/spring-boot-cloud
+          uri: https://github.com/goodideal/spring-boot-cloud
           search-paths: config-repo
           default-label: consul
   rabbitmq:

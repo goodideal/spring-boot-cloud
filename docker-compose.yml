@@ -12,26 +12,26 @@ services:
       - "8500:8500"
       - "8600:8600"
   config:
-    image: spring-boot-cloud/config
+    image: spring-boot-cloud/core-config
     ports:
       - "8888:8888"
   monitor:
-    image: spring-boot-cloud/monitor
+    image: spring-boot-cloud/core-monitor
     ports:
       - "8040:8040"
   zipkin:
-    image: spring-boot-cloud/zipkin
+    image: spring-boot-cloud/core-zipkin
     ports:
       - "9411:9411"
   gateway:
-    image: spring-boot-cloud/gateway
+    image: spring-boot-cloud/core-gateway
     ports:
       - "8060:8060"
   auth-service:
-    image: spring-boot-cloud/auth-service
+    image: spring-boot-cloud/core-auth-service
     ports:
       - "5000:5000"
   svca-service:
-    image: spring-boot-cloud/svca-service
+    image: spring-boot-cloud/msv-svca-service
   svcb-service:
-    image: spring-boot-cloud/svcb-service
+    image: spring-boot-cloud/msv-svcb-service
