@@ -6,13 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="auth-service" />
-        <module name="config" />
-        <module name="gateway" />
-        <module name="monitor" />
-        <module name="svca-service" />
-        <module name="svcb-service" />
-        <module name="zipkin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
