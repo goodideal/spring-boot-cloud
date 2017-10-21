@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="auth-service" />
+        <module name="config" />
+        <module name="gateway" />
+        <module name="monitor" />
+        <module name="svca-service" />
+        <module name="svcb-service" />
+        <module name="zipkin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth-service" target="1.8" />
+      <module name="auth-service_main" target="1.5" />
+      <module name="auth-service_test" target="1.5" />
+      <module name="config" target="1.8" />
+      <module name="config_main" target="1.5" />
+      <module name="config_test" target="1.5" />
+      <module name="core-auth-service_main" target="1.8" />
+      <module name="core-auth-service_main~1" target="1.8" />
+      <module name="core-auth-service_test" target="1.8" />
+      <module name="core-auth-service_test~1" target="1.8" />
+      <module name="core-config_main" target="1.8" />
+      <module name="core-config_main~1" target="1.8" />
+      <module name="core-config_test" target="1.8" />
+      <module name="core-config_test~1" target="1.8" />
+      <module name="core-gateway_main" target="1.8" />
+      <module name="core-gateway_main~1" target="1.8" />
+      <module name="core-gateway_test" target="1.8" />
+      <module name="core-gateway_test~1" target="1.8" />
+      <module name="core-monitor_main" target="1.8" />
+      <module name="core-monitor_main~1" target="1.8" />
+      <module name="core-monitor_test" target="1.8" />
+      <module name="core-monitor_test~1" target="1.8" />
+      <module name="core-zipkin_main" target="1.8" />
+      <module name="core-zipkin_main~1" target="1.8" />
+      <module name="core-zipkin_test" target="1.8" />
+      <module name="core-zipkin_test~1" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="gateway_main" target="1.5" />
+      <module name="gateway_test" target="1.5" />
+      <module name="monitor" target="1.8" />
+      <module name="monitor_main" target="1.5" />
+      <module name="monitor_test" target="1.5" />
+      <module name="msv-svca-service_main" target="1.8" />
+      <module name="msv-svca-service_main~1" target="1.8" />
+      <module name="msv-svca-service_test" target="1.8" />
+      <module name="msv-svca-service_test~1" target="1.8" />
+      <module name="msv-svcb-service_main" target="1.8" />
+      <module name="msv-svcb-service_main~1" target="1.8" />
+      <module name="msv-svcb-service_test" target="1.8" />
+      <module name="msv-svcb-service_test~1" target="1.8" />
+      <module name="registry_main" target="1.8" />
+      <module name="registry_test" target="1.8" />
+      <module name="spring-boot-cloud" target="1.8" />
+      <module name="svca-service" target="1.8" />
+      <module name="svca-service_main" target="1.5" />
+      <module name="svca-service_test" target="1.5" />
+      <module name="svcb-service" target="1.8" />
+      <module name="svcb-service_main" target="1.5" />
+      <module name="svcb-service_test" target="1.5" />
+      <module name="zipkin" target="1.8" />
+      <module name="zipkin_main" target="1.5" />
+      <module name="zipkin_test" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

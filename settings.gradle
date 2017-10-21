@@ -1,0 +1,37 @@
+
+// core
+include 'core-config'
+include 'core-gateway'
+include 'core-monitor'
+include 'core-auth-service'
+include 'core-zipkin'
+
+// biz-services, msv = micro-service
+include 'msv-svca-service'
+include 'msv-svcb-service'
+
+rootProject.name = 'spring-boot-cloud'
+rootProject.children.each {project ->
+    String subProjectName = project.name.replaceAll("\\p{Upper}") { "-${it.toLowerCase()}" }
+    String module = subProjectName.split('-')[0]
+    String fileBaseName = subProjectName.replace("${module}-","")
+    String basePath = "modules"
+    String projectDirName = "${basePath}/common/$fileBaseName"
+
+    // according to prefix, find right project folder
+    switch (module){
+        case 'core':
+            projectDirName = "${basePath}/core/$fileBaseName"
+            break
+        case 'msv':
+            projectDirName = "${basePath}/msv/$fileBaseName"
+            break
+        default:
+            break
+    }
+
+    project.projectDir = new File(settingsDir, projectDirName)
+    project.buildFileName = "build.gradle"
+    assert project.projectDir.isDirectory()
+    assert project.buildFile.isFile()
+}

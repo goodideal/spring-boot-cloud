@@ -1,0 +1,16 @@
+description = 'monitor'
+dependencies {
+    compile group: 'de.codecentric', name: 'spring-boot-admin-server', version: springBootAdminVersion
+    compile group: 'de.codecentric', name: 'spring-boot-admin-server-ui', version: springBootAdminVersion
+    compile group: 'de.codecentric', name: 'spring-boot-admin-server-ui-login', version: springBootAdminVersion
+    compile group: 'de.codecentric', name: 'spring-boot-admin-server-ui-hystrix', version: springBootAdminVersion
+    compile group: 'de.codecentric', name: 'spring-boot-admin-server-ui-turbine', version: springBootAdminVersion
+    compile(group: 'org.springframework.cloud', name: 'spring-cloud-starter-turbine-stream', version: springCloudTurbineVersion) {
+        exclude(module: 'spring-cloud-starter-eureka')
+        exclude(module: 'netty-transport-native-epoll')
+        exclude(module: 'netty-codec-http')
+    }
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-stream-rabbit', version: springCloudStreamVersion
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-consul-discovery', version: springCloudConsulVersion
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: springBootVersion
+}

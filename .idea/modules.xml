@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/auth-service/auth-service.iml" filepath="$PROJECT_DIR$/auth-service/auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/core/auth-service/core-auth-service.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/core/auth-service/core-auth-service.iml" group="core-auth-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/core/auth-service/core-auth-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/core/auth-service/core-auth-service_main.iml" group="core-auth-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/core/auth-service/core-auth-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/core/auth-service/core-auth-service_test.iml" group="core-auth-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/core/config/core-config.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/core/config/core-config.iml" group="core-config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/core/config/core-config_main.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/core/config/core-config_main.iml" group="core-config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/core/config/core-config_test.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/core/config/core-config_test.iml" group="core-config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/core/gateway/core-gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/core/gateway/core-gateway.iml" group="core-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/core/gateway/core-gateway_main.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/core/gateway/core-gateway_main.iml" group="core-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/core/gateway/core-gateway_test.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/core/gateway/core-gateway_test.iml" group="core-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/core/monitor/core-monitor.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/core/monitor/core-monitor.iml" group="core-monitor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/core/monitor/core-monitor_main.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/core/monitor/core-monitor_main.iml" group="core-monitor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/core/monitor/core-monitor_test.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/core/monitor/core-monitor_test.iml" group="core-monitor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/core/zipkin/core-zipkin.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/core/zipkin/core-zipkin.iml" group="core-zipkin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/core/zipkin/core-zipkin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/core/zipkin/core-zipkin_main.iml" group="core-zipkin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/core/zipkin/core-zipkin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/core/zipkin/core-zipkin_test.iml" group="core-zipkin" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor/monitor.iml" filepath="$PROJECT_DIR$/monitor/monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/msv/svca-service/msv-svca-service.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/msv/svca-service/msv-svca-service.iml" group="msv-svca-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/msv/svca-service/msv-svca-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/msv/svca-service/msv-svca-service_main.iml" group="msv-svca-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/msv/svca-service/msv-svca-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/msv/svca-service/msv-svca-service_test.iml" group="msv-svca-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/msv/svcb-service/msv-svcb-service.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/msv/svcb-service/msv-svcb-service.iml" group="msv-svcb-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/msv/svcb-service/msv-svcb-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/msv/svcb-service/msv-svcb-service_main.iml" group="msv-svcb-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/msv/svcb-service/msv-svcb-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/msv/svcb-service/msv-svcb-service_test.iml" group="msv-svcb-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-cloud.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/svca-service/svca-service.iml" filepath="$PROJECT_DIR$/svca-service/svca-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/svcb-service/svcb-service.iml" filepath="$PROJECT_DIR$/svcb-service/svcb-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin/zipkin.iml" filepath="$PROJECT_DIR$/zipkin/zipkin.iml" />
+    </modules>
+  </component>
+</project>

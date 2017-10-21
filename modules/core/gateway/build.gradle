@@ -1,0 +1,14 @@
+description = 'gateway'
+dependencies {
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-zuul', version: springCloudZuulVersion
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-config', version: springCloudConfigVersion
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-consul-discovery', version: springCloudConsulVersion
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-bus-amqp', version: springCloudBusAmqpVersion
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-netflix-hystrix-stream', version: springCloudHystrixVersion
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-sleuth', version: springCloudSleuthVersion
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-sleuth-stream', version: springCloudSleuthVersion
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-stream-binder-rabbit', version: springCloudStreamVersion
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-aop', version: springBootVersion
+    compile group: 'org.springframework.retry', name: 'spring-retry', version: springRetryVersion
+    compile group: 'org.jolokia', name: 'jolokia-core', version: jolokiaVersion
+}

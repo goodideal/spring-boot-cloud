@@ -1,0 +1,8 @@
+description = 'zipkin'
+dependencies {
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-sleuth-zipkin-stream', version: springCloudSleuthVersion
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-sleuth', version: springCloudSleuthVersion
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-stream-binder-rabbit', version: springCloudStreamVersion
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: springBootVersion
+    compile group: 'io.zipkin.java', name: 'zipkin-autoconfigure-ui', version: '1.23.2'
+}

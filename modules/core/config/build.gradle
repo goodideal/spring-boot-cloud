@@ -1,0 +1,8 @@
+description = 'config'
+dependencies {
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-config-server', version: springCloudConfigVersion
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-config-monitor', version: springCloudConfigVersion
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-stream-rabbit', version: springCloudStreamVersion
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-consul-discovery', version: springCloudConsulVersion
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: springBootVersion
+}
